@@ -12,11 +12,15 @@
 // Gastest.assertNotEqual(a,b)
 // Gastest.assertNotEqual(a,b,name)
 
-var testRunner = new TestRunner();
+var gasTestRunner_ = new GasTestRunner();
 
 function assert(a){
-    testRunner.assert(a);
+  assert_(a);
 }
-function assert(a,name){
+// ----------------------------------------
+// Private Method
+// ----------------------------------------
 
+function assert_(a){
+    gasTestRunner_.assert_(a);
 }
