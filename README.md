@@ -1,16 +1,10 @@
-![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/a65ee1ea-c1ec-4c2a-8278-7f0a40173996)
+![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/68188326-afa5-4029-a15e-8c2bb221050b)
+<p align="center">
+<a href='https://github.com/google/clasp'>
+    <img src='https://img.shields.io/badge/built%20with-clasp-4285f4.svg'>
+</a>
+</p>
 
-
-
-
-
-
-
-# GasTest
-## For you to be confident is intended
-あなたが自信を持つことが出来るように
-[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
-Google Apps Scriptのためのユニットテストフレームワーク．
 
 ## イントロ
 
