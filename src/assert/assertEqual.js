@@ -3,10 +3,10 @@
 // ----------------------------------------
 // Start :2023-11-18
 
-function assertInternal_( a ){
-  
+function assertEqualInternal_(a, b) {
+
   //　判定
-  var decision_ = decisionAssert_(a);
+  var decision_ = decisionAssertEqual_(a,b);
 
   //出力
   var gasTestCase_ = new GasTestCase();
@@ -14,11 +14,11 @@ function assertInternal_( a ){
   return gasTestCase_;
 }
 
-function decisionAssert_(a){
+function decisionAssertEqual_(a, b) {
 
   var result_ = false;
 
-  if( a ){
+  if (a == b) {
     result_ = true;
   }
 
