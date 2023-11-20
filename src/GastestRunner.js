@@ -1,12 +1,9 @@
-class GasTestRunner {
-  constructor() {
-    this.strLog_ = "";
+class TestRunner {
+    constructor() {
+        this.strLog = "";
 
-  }
-  // ----------------------------------------
-  // Private Method
-  // ----------------------------------------
-  assert_(a) {
-    console.log('call Assert');
-  }
+    }
+    assert(a){
+        console.log('call Assert');
+    }
 }
