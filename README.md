@@ -9,8 +9,17 @@
 </p>
 
 
-## イントロ
-
+## Sample Code
+```javascript
+    function myFunction() {
+      GasTest.assert(true,'Hello GasTest');
+      GasTest.assert(true);
+      GasTest.assertTrue(true);
+      GasTest.assertFalse(false);
+      GasTest.assertEqual(1,1);
+      GasTest.assertNotEqual(1,2);
+    }
+```
 # name
 
 image or gif
