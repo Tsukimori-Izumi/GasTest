@@ -9,7 +9,7 @@
 </p>
 
 ## Quick Start
-### Google Application Script ID a.k.a Li
+### Google Application Script ID
 <table>
   <tr>
     <td align="center">
