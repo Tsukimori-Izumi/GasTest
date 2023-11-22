@@ -8,17 +8,26 @@
 </a>
 </p>
 
+## Quick Start
+### Google Application Script ID a.k.a Li
+<table>
+  <tr>
+    <td align="center">
+        1IEOYIIgWa4TmYjqV_c9wnnz9FvWwlCbgoRCMrS2TVelHXIERRumR4Ldt
+    </td>
+  </tr>
+</table>
 
-## Sample Code
+### Sample Code
 ```javascript
-    function myFunction() {
-      GasTest.assert(true,'Hello GasTest');
-      GasTest.assert(true);
-      GasTest.assertTrue(true);
-      GasTest.assertFalse(false);
-      GasTest.assertEqual(1,1);
-      GasTest.assertNotEqual(1,2);
-    }
+function myFunction() {
+    GasTest.assert(true,'Hello GasTest');
+    GasTest.assert(true);
+    GasTest.assertTrue(true);
+    GasTest.assertFalse(false);
+    GasTest.assertEqual(1,1);
+    GasTest.assertNotEqual(1,2);
+}
 ```
 # name
 
