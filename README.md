@@ -37,7 +37,7 @@ function myFunction() {
 }
 ```
 <p align="center">
-<a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
+<a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank" rel="noopener noreferrer">
     <img src='https://img.youtube.com/vi/13LmUtWeyTo/0.jpg'>
 </a>
 </p>
