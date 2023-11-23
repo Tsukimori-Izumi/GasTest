@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/e216a86f-d2b1-4633-847b-1e19de6ba316" alt="GasTest" height="320" width="320"/>
+    <img src="https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/bfe38d05-3579-4213-a3b6-1643c306695d" alt="GasTest" height="320" width="320"/>
 </p>
 <p align="center">
 <a href='https://github.com/google/clasp'>
