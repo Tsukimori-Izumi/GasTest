@@ -10,9 +10,13 @@
  
 ## Description
 Test method for Google Aplications Script.
+
 You can view the result on console.
+
 ## ContentThisREADME
- [Demo for Quick Start](#DemoForQuickStart)
+- [Demo for Quick Start](#DemoForQuickStart)
+- [Feature method](#FeatureMethod)
+- [Overview the results](#Overview the results)
 ## DemoForQuickStart
 <p align="center">
 <a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
@@ -20,7 +24,7 @@ You can view the result on console.
 </a>
 </p>
 
-## Feature method
+## FeatureMethod
 | Method | Checked |
 | ------------- | ------------- |
 | assert( a )  | a == true  |
