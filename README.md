@@ -53,8 +53,8 @@ You can view the result on console.
 ## Output
 | Method | Description |Class|
 | ------------- | ------------- |
-| gastest.result() | Content console result view |string|
-|gastest.getResultCase()||result Testcase Class|GasTestCase|
+| gastest.result() | Content console result view | string |
+| gastest.getResultCase() | result Testcase Class | GasTestCase |
 
 ## QuickStart
 
