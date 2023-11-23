@@ -51,9 +51,10 @@ You can view the result on console.
 ![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
 
 ## Output
-| Method | Description |
+| Method | Description |Class|
 | ------------- | ------------- |
-| gastest.log() | Content console result view |
+| gastest.result() | Content console result view |string|
+|gastest.getResultCase()||result Testcase Class|GasTestCase|
 
 ## QuickStart
 
