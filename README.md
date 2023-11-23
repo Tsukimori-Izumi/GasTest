@@ -9,6 +9,13 @@
 </p>
 
 ## Quick Start
+
+1. Copy the Google Application Script(Gas) ID follow:
+2. Paste ID on "Add Library" on Gas project.
+3. Copy the Sample Code follow:
+4. Paste code "my myfunction" on code.gs at your project
+5. Excute myfunction and Test is Complete!
+
 ### Google Application Script ID
 <table>
   <tr>
