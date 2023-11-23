@@ -18,8 +18,8 @@ class GasTestRunner {
     this.fetchTickFirst_; //　初回は開始時刻を取得
     //初期化設定が入るなら変更するのがよい
     var testCase = assertInternal_(a); // テストして結果を取得
-    testCase.duration_ = new Date() - this.tick_; // 演算時間計算
-    testCase.name_ = name;
+    testCase.duration = new Date() - this.tick_; // 演算時間計算
+    testCase.name = name;
 
     gasTestSuite_.addCase_(testCase); // スーツにケースを追加
     this.addLog_();
@@ -31,8 +31,8 @@ class GasTestRunner {
     this.fetchTickFirst_; //　初回は開始時刻を取得
     //初期化設定が入るなら変更するのがよい
     var testCase = assertEqualInternal_(a,b); // テストして結果を取得
-    testCase.duration_ = new Date() - this.tick_; // 演算時間計算
-    testCase.name_ = name;
+    testCase.duration = new Date() - this.tick_; // 演算時間計算
+    testCase.name = name;
 
     gasTestSuite_.addCase_(testCase); // スーツにケースを追加
     this.addLog_();
@@ -45,7 +45,7 @@ class GasTestRunner {
     //初期化設定が入るなら変更するのがよい
     var testCase = assertNotEqualInternal_(a,b); // テストして結果を取得
     testCase.duration_ = new Date() - this.tick_; // 演算時間計算
-    testCase.name_ = name;
+    testCase.name = name;
 
     gasTestSuite_.addCase_(testCase); // スーツにケースを追加
     this.addLog_();
@@ -80,9 +80,9 @@ class GasTestRunner {
     var numCase = gasTestSuite_.numCase_;//ケースの数
     var thisCase = gasTestSuite_.cases_[numCase]; //最大ケース（現在のケース）を取り出す
 
-    var decision = thisCase.result_; //結果
-    var duration = thisCase.duration_; //実行時間
-    var name = thisCase.name_; //名前
+    var decision = thisCase.result; //結果
+    var duration = thisCase.duration; //実行時間
+    var name = thisCase.name; //名前
 
     var strStatus = null; //　結果の文字列
 

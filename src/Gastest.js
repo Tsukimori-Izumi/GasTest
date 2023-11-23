@@ -51,3 +51,11 @@ function assertEqual_(a,b,name){
 function assertNotEqual_(a,b,name){
     gasTestRunner_.assertNotEqual_(a,b,name);
 }
+
+class Gastest{
+  log(){
+    return gasTestRunner_.strLog_;
+  }
+
+}
+var gastest = new Gastest();
