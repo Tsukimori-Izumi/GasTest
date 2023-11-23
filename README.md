@@ -16,7 +16,7 @@ You can view the result on console.
 ## ContentThisREADME
 - [Demo for Quick Start](#DemoForQuickStart)
 - [Feature method](#FeatureMethod)
-- [Overview the results](#Overview the results)
+- [Overview the results](#OverviewTheResults)
 ## DemoForQuickStart
 <p align="center">
 <a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
@@ -38,7 +38,7 @@ You can view the result on console.
 | assertNotEqual( a , b )  | a != b  |
 | assertNotEqual( a , b , testName )  | a != b  |
 
-## Overview the results
+## OverviewTheResults
 ![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
 
 ## Quick Start
