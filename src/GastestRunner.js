@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-class TestRunner {
-    constructor() {
-        this.strLog = "";
-
-    }
-    assert(a){
-        console.log('call Assert');
-    }
-}
-=======
 // Title:GasTest
 // Author:@Tsukimori_Izumi on X(Twitter)
 // ----------------------------------------
@@ -18,6 +7,8 @@ class GasTestRunner {
   constructor() {
     this.strLog_ = "";
     this.tick_ = new Date;
+    this.numGood_ = 0; //NGの数
+    this.numNG_ = 0; //Goodの数
   }
 
   // ----------------------------------------
@@ -94,21 +85,19 @@ class GasTestRunner {
     var name = thisCase.name_; //名前
 
     var strStatus = null; //　結果の文字列
-    var numGood = 0; //NGの数
-    var numNG = 0; //Goodの数
 
     //結果の文字列化
     if (decision) {
       strStatus = "✅Good✅";
-      numGood++;
+      this.numGood_++;
 
     } else {
       strStatus = "🛑Nogood";
-      numGood++;
+      this.numNG_++;
       this.hasNG = true;
     }
     this.strLog_ += numCase + '\t' + name + '\t' + strStatus + '\t' + new Date(duration).getTime() + '\t';
-    this.strLog_ += numGood + '-Good,' + numNG + '-Nogood' + '\n';
+    this.strLog_ += this.numGood_ + '-Good,' + this.numNG_ + '-Nogood' + '\n';
   }
   //--------
   //初めてのログであれば，ヘッダを追加する
@@ -124,4 +113,3 @@ class GasTestRunner {
   }
 }
 var gasTestRunner_ = new GasTestRunner();
->>>>>>> develop/GasTest/feature

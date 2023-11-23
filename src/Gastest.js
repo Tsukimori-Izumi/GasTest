@@ -14,15 +14,6 @@
 // ----------------------------------------
 // Start :2023-11-18
 
-<<<<<<< HEAD
-var testRunner = new TestRunner();
-
-function assert(a){
-    testRunner.assert(a);
-}
-function assert(a,name){
-
-=======
 // ----------------------------------------
 //  Logic Function
 // ----------------------------------------
@@ -56,7 +47,6 @@ function assert_(a,name){
 
 function assertEqual_(a,b,name){
     gasTestRunner_.assertEqual_(a,b,name);
->>>>>>> develop/GasTest/feature
 }
 function assertNotEqual_(a,b,name){
     gasTestRunner_.assertNotEqual_(a,b,name);
