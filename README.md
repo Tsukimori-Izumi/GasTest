@@ -22,7 +22,7 @@ You can view the result on console.
 - [Sample Code](#SampleCode)
 - [Requirement](#Requirement)
 - [Usage on your project](#UsageOnYourProject)
-- [License][#License]
+- [License](#License)
 - [Copyright](Copyright)
 
 ## DemoForQuickStart
@@ -95,7 +95,7 @@ function myFunction() {
   </tr>
 </table>
 
-### Sample Code
+### SampleCode
 ```javascript
 function myFunction() {
     GasTest.assert(true,'Hello GasTest');
@@ -110,7 +110,7 @@ function myFunction() {
 ## Requirement
 - Google Application Script Environment
 
-## Usage on your project
+## UsageOnYourProject
 1. Import Gastest on your project
 2. type "assert~~" method on your code
 
