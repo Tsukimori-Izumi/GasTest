@@ -17,6 +17,14 @@ You can view the result on console.
 - [Demo for Quick Start](#DemoForQuickStart)
 - [Feature method](#FeatureMethod)
 - [Overview the results](#OverviewTheResults)
+- [Quick Start](#QuickStart)
+- [Google Application Script ID](#GoogleApplicationScriptID)
+- [Sample Code](#SampleCode)
+- [Requirement](#Requirement)
+- [Usage on your project](#UsageOnYourProject)
+- [License][#License]
+- [Copyright](Copyright)
+
 ## DemoForQuickStart
 <p align="center">
 <a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
@@ -41,7 +49,7 @@ You can view the result on console.
 ## OverviewTheResults
 ![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
 
-## Quick Start
+## QuickStart
 
 1. <Install> Copy the **Google Application Script(Gas) ID** follow:
    
@@ -78,7 +86,7 @@ function myFunction() {
 
 
 
-### Google Application Script ID
+### GoogleApplicationScriptID
 <table>
   <tr>
     <td align="center">
@@ -105,3 +113,11 @@ function myFunction() {
 ## Usage on your project
 1. Import Gastest on your project
 2. type "assert~~" method on your code
+
+## License
+Apache license 2.0
+
+## Copyright
+Guard object of logger for debugging.
+
+Copyright (c) 2023 TSUKIMORI Izumi (https://twitter.com/Tsukimori_Izumi)
