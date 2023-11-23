@@ -7,7 +7,7 @@ class GasTestCase {
 
   constructor() {
     this.name = "";
-    this.index_ = 0;
+    this.index = 0;
     this.result = null;
     this.duration = 0;
   }

@@ -5,5 +5,7 @@ function myFunction() {
   assertEqual(1,1);
   assertNotEqual(1,2);
 
-  console.log(gasTest.log());
+  console.log(gastest.result());
+  var tc = gastest.getResultCase();
+  console.log(tc.cases[1].name);
 }

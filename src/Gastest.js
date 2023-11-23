@@ -52,9 +52,18 @@ function assertNotEqual_(a,b,name){
     gasTestRunner_.assertNotEqual_(a,b,name);
 }
 
+
+// ----------------------------------------
+// Output
+// ----------------------------------------
+
 class Gastest{
-  log(){
+  result(){
     return gasTestRunner_.strLog_;
+  }
+
+  getResultCase(){
+    return gasTestSuite_;
   }
 
 }

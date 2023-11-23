@@ -5,7 +5,7 @@
 
 class GasTestSuite {
   constructor() {
-    this.cases_ = [];
+    this.cases = [];
     this.numCase_ = 0;
   }
   
@@ -15,8 +15,8 @@ class GasTestSuite {
   addCase_(testCase){
     this.numCase_++;
     let index = this.numCase_;
-    this.cases_[ index ] = testCase;
-    testCase.index_ = index;
+    this.cases[ index ] = testCase;
+    testCase.index = index;
   }
 }
 var gasTestSuite_ = new GasTestSuite();

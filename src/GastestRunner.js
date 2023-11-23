@@ -78,7 +78,7 @@ class GasTestRunner {
     this.addLogHeader_();
 
     var numCase = gasTestSuite_.numCase_;//ケースの数
-    var thisCase = gasTestSuite_.cases_[numCase]; //最大ケース（現在のケース）を取り出す
+    var thisCase = gasTestSuite_.cases[numCase]; //最大ケース（現在のケース）を取り出す
 
     var decision = thisCase.result; //結果
     var duration = thisCase.duration; //実行時間
