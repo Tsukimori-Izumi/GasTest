@@ -17,6 +17,7 @@ You can view the result on console.
 - [Demo for Quick Start](#DemoForQuickStart)
 - [Feature method](#FeatureMethod)
 - [Overview the results](#OverviewTheResults)
+- [Output](#Output)
 - [Quick Start](#QuickStart)
 - [Google Application Script ID](#GoogleApplicationScriptID)
 - [Sample Code](#SampleCode)
@@ -48,6 +49,11 @@ You can view the result on console.
 
 ## OverviewTheResults
 ![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
+
+## Output
+| Method | Description |
+| ------------- | ------------- |
+| gastest.log() | Content console result view |
 
 ## QuickStart
 
