@@ -40,8 +40,8 @@ You can view the result on console.
 | assert( a ,testName )  | a == true  |
 | assertTrue( a )  | a == true  |
 | assertTrue( a ,TestName)  | a == true  |
-| assertFalse( a )  | a != true  |
-| assertFalse( a , testName )  | a != true  |
+| assertFalse( a )  | a == false  |
+| assertFalse( a , testName )  | a == false  |
 | assertEqual( a , b )  | a == b  |
 | assertEqual( a , b , testName )  | a == b  |
 | assertNotEqual( a , b )  | a != b  |
