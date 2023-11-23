@@ -1,65 +1,123 @@
-# GasTest
-## For you to be confident is intended
-あなたが自信を持つことが出来るように
-[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
-Google Apps Scriptのためのユニットテストフレームワーク．
+<p align="center">
+    <img src="https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/bfe38d05-3579-4213-a3b6-1643c306695d" alt="GasTest" height="320" width="320"/>
+</p>
+<p align="center">
+<a href='https://github.com/google/clasp'>
+    <img src='https://img.shields.io/badge/built%20with-clasp-4285f4.svg'>
+</a>
+<br/>For you to be confident is intended
+</p>
+ 
+## Description
+Test method for Google Aplications Script.
 
-## イントロ
+You can view the result on console.
 
-# name
+## ContentThisREADME
+- [Demo for Quick Start](#DemoForQuickStart)
+- [Feature method](#FeatureMethod)
+- [Overview the results](#OverviewTheResults)
+- [Quick Start](#QuickStart)
+- [Google Application Script ID](#GoogleApplicationScriptID)
+- [Sample Code](#SampleCode)
+- [Requirement](#Requirement)
+- [Usage on your project](#UsageOnYourProject)
+- [License](#License)
+- [Copyright](Copyright)
 
-image or gif
+## DemoForQuickStart
+<p align="center">
+<a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
+    <img src='https://img.youtube.com/vi/13LmUtWeyTo/0.jpg'>
+</a>
+</p>
 
-## Overview
+## FeatureMethod
+| Method | Checked |
+| ------------- | ------------- |
+| assert( a )  | a == true  |
+| assert( a ,testName )  | a == true  |
+| assertTrue( a )  | a == true  |
+| assertTrue( a ,TestName)  | a == true  |
+| assertFalse( a )  | a != true  |
+| assertFalse( a , testName )  | a != true  |
+| assertEqual( a , b )  | a == b  |
+| assertEqual( a , b , testName )  | a == b  |
+| assertNotEqual( a , b )  | a != b  |
+| assertNotEqual( a , b , testName )  | a != b  |
 
-## Requirement
+## OverviewTheResults
+![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
 
-## Usage
+## QuickStart
 
-## Features
+1. <Install> Copy the **Google Application Script(Gas) ID** follow:
+   
+<table>
+  <tr>
+    <td align="center">
+        1op6cpC3wu8VjkJKOKctenzmoTbWrxA3Ldlij7A_rkptpOVvD7Zxhx_9e
+    </td>
+  </tr>
+</table>
 
-## Reference
+2. <Install> Paste ID on "Add Library" on Gas project.
+3. <Execute> Copy the **Sample Code** follow:
 
-## Author
+```javascript
+function myFunction() {
+    GasTest.assert(true,'Hello GasTest');
+    GasTest.assert(true);
+    GasTest.assertTrue(true);
+    GasTest.assertFalse(false);
+    GasTest.assertEqual(1,1);
+    GasTest.assertNotEqual(1,2);
+}
+```
+ 
+5. <Execute> Paste code "my myfunction" on code.gs at your project
+6. <Execute> Excute "myfunction"
+   
+![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/72452ab8-70d5-4663-94e3-bd0c35afc88f)
 
-[twitter](https://twitter.com/Kotabrog)
+8. The test results are showed in the console.
 
-## Licence
+![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/2a63cea5-01d7-4b28-97db-0533a231e429)
 
-[MIT](https://......)
 
-```mermaid
----
 
----
-sequenceDiagram
-    box On Your Project
-        actor User
-        participant Code as Code
-    end
-    
-    box GasTest
-        participant G as GasTest
-        participant R as GasTestRunner
-        participant S as GasTestSuilte 
-        participant C as GasTestCase
-        participant A as Function = assert
-    end
+### GoogleApplicationScriptID
+<table>
+  <tr>
+    <td align="center">
+        1op6cpC3wu8VjkJKOKctenzmoTbWrxA3Ldlij7A_rkptpOVvD7Zxhx_9e
+    </td>
+  </tr>
+</table>
 
-    User->>Code:Run
-    Code->>G:Call GasTest.assert
-    G->>R:Call assert
-    R->>A:Call
-    A->>+C:Create
-    A->>A:decision
-    A->>C:setResult
-    C-->>-A:return Case
-    A->>R:return Case
-    R->>S:Add Case
-    R->>S:show Log
-    S-->>R:return log
-    R->>User:Console.log
+### SampleCode
+```javascript
+function myFunction() {
+    GasTest.assert(true,'Hello GasTest');
+    GasTest.assert(true);
+    GasTest.assertTrue(true);
+    GasTest.assertFalse(false);
+    GasTest.assertEqual(1,1);
+    GasTest.assertNotEqual(1,2);
+}
 ```
 
-これで含むはわかる？
-alert(rabbit instanceof Animal); // true
+## Requirement
+- Google Application Script Environment
+
+## UsageOnYourProject
+1. Import Gastest on your project
+2. type "assert~~" method on your code
+
+## License
+Apache license 2.0
+
+## Copyright
+Guard object of logger for debugging.
+
+Copyright (c) 2023 TSUKIMORI Izumi (https://twitter.com/Tsukimori_Izumi)
