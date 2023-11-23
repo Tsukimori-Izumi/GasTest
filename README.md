@@ -56,12 +56,12 @@ You can view the result on console.
 | gastest.result() | Content console result view | string |
 | gastest.getResultCase() | result Testcase Class | GasTestCase |
 
-|GasTestCase||
+|GasTestCase|member name|
 | ------------- | ------------- |
-|.name|string|
-|.index|integer|
-|.result|bool|
-|.duration|float|
+|string|.name|
+|integer|.index|
+|bool|.result|
+|float|.duration|
 
 ## QuickStart
 
