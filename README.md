@@ -1,4 +1,3 @@
-
 <p align="center">
     <img src="https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/e216a86f-d2b1-4633-847b-1e19de6ba316" alt="GasTest" height="320" width="320"/>
 </p>
@@ -6,26 +5,42 @@
 <a href='https://github.com/google/clasp'>
     <img src='https://img.shields.io/badge/built%20with-clasp-4285f4.svg'>
 </a>
+<br/>For you to be confident is intended
 </p>
-
+ 
 ## Description
-
-#### Demo for Quick Start
+Test method for Google Aplications Script.
+You can view the result on console.
+## ContentThisREADME
+ [Demo for Quick Start](#DemoForQuickStart)
+## DemoForQuickStart
 <p align="center">
 <a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
     <img src='https://img.youtube.com/vi/13LmUtWeyTo/0.jpg'>
 </a>
 </p>
 
+## Feature method
+| Method | Checked |
+| ------------- | ------------- |
+| assert( a )  | a == true  |
+| assert( a ,testName )  | a == true  |
+| assertTrue( a )  | a == true  |
+| assertTrue( a ,TestName)  | a == true  |
+| assertFalse( a )  | a != true  |
+| assertFalse( a , testName )  | a != true  |
+| assertEqual( a , b )  | a == b  |
+| assertEqual( a , b , testName )  | a == b  |
+| assertNotEqual( a , b )  | a != b  |
+| assertNotEqual( a , b , testName )  | a != b  |
+
+## Overview the results
+![result](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/f42d901c-16f2-43bc-b3ed-c02b56e6721a)
+
 ## Quick Start
 
-1. Copy the Google Application Script(Gas) ID follow:
-2. Paste ID on "Add Library" on Gas project.
-3. Copy the Sample Code follow:
-4. Paste code "my myfunction" on code.gs at your project
-5. Excute myfunction and Test is Complete!
-
-#### Google Application Script ID
+1. <Install> Copy the **Google Application Script(Gas) ID** follow:
+   
 <table>
   <tr>
     <td align="center">
@@ -34,7 +49,41 @@
   </tr>
 </table>
 
-#### Sample Code
+2. <Install> Paste ID on "Add Library" on Gas project.
+3. <Execute> Copy the **Sample Code** follow:
+
+```javascript
+function myFunction() {
+    GasTest.assert(true,'Hello GasTest');
+    GasTest.assert(true);
+    GasTest.assertTrue(true);
+    GasTest.assertFalse(false);
+    GasTest.assertEqual(1,1);
+    GasTest.assertNotEqual(1,2);
+}
+```
+ 
+5. <Execute> Paste code "my myfunction" on code.gs at your project
+6. <Execute> Excute "myfunction"
+   
+![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/72452ab8-70d5-4663-94e3-bd0c35afc88f)
+
+8. The test results are showed in the console.
+
+![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/2a63cea5-01d7-4b28-97db-0533a231e429)
+
+
+
+### Google Application Script ID
+<table>
+  <tr>
+    <td align="center">
+        1op6cpC3wu8VjkJKOKctenzmoTbWrxA3Ldlij7A_rkptpOVvD7Zxhx_9e
+    </td>
+  </tr>
+</table>
+
+### Sample Code
 ```javascript
 function myFunction() {
     GasTest.assert(true,'Hello GasTest');
@@ -47,4 +96,8 @@ function myFunction() {
 ```
 
 ## Requirement
-- You need 
+- Google Application Script Environment
+
+## Usage on your project
+1. Import Gastest on your project
+2. type "assert~~" method on your code
