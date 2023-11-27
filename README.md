@@ -8,7 +8,6 @@
 <br/>
 For you to be confident is intended<br/>
 <a href="/README.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/README_jp.md">Japanese</a><br/>
-
 </p>
  
 ## Description
