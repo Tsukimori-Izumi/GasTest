@@ -5,16 +5,18 @@
 <a href='https://github.com/google/clasp'>
     <img src='https://img.shields.io/badge/built%20with-clasp-4285f4.svg'>
 </a>
-<br/>For you to be confident is intended
+<br/>
+自信が持てますように<br/>
+<a href="/README.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/README_jp.md">Japanese</a><br/>
 </p>
  
-## Description
+## 概要
 Test method for Google Aplications Script.
 
 You can view the result on console.
 
 ## ContentThisREADME
-- [Demo for Quick Start](#DemoForQuickStart)
+- [Demo for Quick Start](#クイックスタート)
 - [Feature method](#FeatureMethod)
 - [Overview the results](#OverviewTheResults)
 - [Output](#Output)
@@ -26,7 +28,7 @@ You can view the result on console.
 - [License](#License)
 - [Copyright](Copyright)
 
-## DemoForQuickStart
+## クイックスタート
 <p align="center">
 <a href='https://www.youtube.com/watch?v=13LmUtWeyTo' target="_blank">
     <img src='https://img.youtube.com/vi/13LmUtWeyTo/0.jpg'>
