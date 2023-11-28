@@ -26,7 +26,7 @@ You can view the result on console.
 - [Requirement](#Requirement)
 - [Usage on your project](#UsageOnYourProject)
 - [License](#License)
-- [Copyright](Copyright)
+- [Copyright](#Copyright)
 
 ## DemoForQuickStart
 <p align="center">
