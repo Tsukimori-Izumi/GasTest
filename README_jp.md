@@ -11,8 +11,8 @@
 </p>
  
 ## 概要
-Google Aplications Script(Gas)のテストユニット
-結果はコンソールで確認します
+Google Aplications Script(Gas)のテストユニット<br/>
+結果はコンソールまたは返り値で確認します
 
 ## ContentThisREADME
 - [クイックスタート](#クイックスタート)
@@ -20,12 +20,12 @@ Google Aplications Script(Gas)のテストユニット
 - [結果の確認方法](#結果の確認方法)
 - [結果の変数出力](#結果の変数出力)
 - [テスト実行サンプル](#テスト実行サンプル)
-- [Google Application Script ID](#GoogleApplicationScriptID)
-- [Sample Code](#SampleCode)
-- [Requirement](#Requirement)
-- [Usage on your project](#UsageOnYourProject)
-- [License](#License)
-- [Copyright](Copyright)
+- [グーグルアプリスクリプトID](#グーグルアプリスクリプトID)
+- [サンプルコード](#サンプルコード)
+- [必要環境](#必要環境)
+- [ご自分のプロジェクトで使うために](#ご自分のプロジェクトで使うために)
+- [Lライセンス](#ライセンス)
+- [著作権](#著作権)
 
 ## クイックスタート
 <p align="center">
@@ -66,7 +66,7 @@ Google Aplications Script(Gas)のテストユニット
 
 ## テスト実行サンプル
 
-1. <Install> Copy the **Google Application Script(Gas) ID** follow:
+1. <インストール> 以下の**グーグルスクリプトID**をコピーしてください．:
    
 <table>
   <tr>
@@ -76,8 +76,8 @@ Google Aplications Script(Gas)のテストユニット
   </tr>
 </table>
 
-2. <Install> Paste ID on "Add Library" on Gas project.
-3. <Execute> Copy the **Sample Code** follow:
+2. <インストール> ご自分のプロジェクトの左ペイン，ライブラリの「＋」を押し，「ライブラリの追加」に，スクリプトIDをペーストしてください．
+3. <実行> 以下のサンプルコードをコピーしてください．:
 
 ```javascript
 function myFunction() {
@@ -90,17 +90,17 @@ function myFunction() {
 }
 ```
  
-5. <Execute> Paste code "my myfunction" on code.gs at your project
-6. <Execute> Excute "myfunction"
+5. <実行> ご自分のプロジェクトの関数，ここではコード.gsの"my myfunction"にサンプルコードをペーストしてください．
+7. <Execute> 「実行する関数」に貼り付けた関数"myfunction"が選択されていることを確認して実行ボタンを押してください．
 
 ![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/2fa97406-3c4a-46de-8979-7a74c29930f6)
 
-8. The test results are showed in the console.
+8. 結果がコンソールに出力されます．
 
 ![image](https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/d2d3e35e-4bfe-4b90-b710-b036b06bfc86)
 
 
-### GoogleApplicationScriptID
+### グーグルアプリスクリプトID
 <table>
   <tr>
     <td align="center">
@@ -109,7 +109,7 @@ function myFunction() {
   </tr>
 </table>
 
-### SampleCode
+### サンプルコード
 ```javascript
 function myFunction() {
     GasTest.assert(true,'Hello GasTest');
@@ -122,17 +122,17 @@ function myFunction() {
 ```
 ## 
 
-## Requirement
-- Google Application Script Environment
+## 必要環境
+- (Google Application Script 実行環境)[https://script.google.com/home]
 
-## UsageOnYourProject
+## ご自分のプロジェクトで使うために
 1. Import Gastest on your project
 2. type "assert~~" method on your code
 
-## License
+## ライセンス
 Apache license 2.0
 
-## Copyright
+## 著作権
 Guard object of logger for debugging.
 
 Copyright (c) 2023 TSUKIMORI Izumi (https://twitter.com/Tsukimori_Izumi)
