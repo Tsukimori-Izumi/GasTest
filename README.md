@@ -1,5 +1,7 @@
 
-<p><a href="/README.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/README_jp.md">Japanese</a><br/></p>
+<p align="center">
+    <a href="/README.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/README_jp.md">Japanese</a><br/>
+</p>
 <p align="center">
     <img src="https://github.com/Tsukimori-Izumi/GasTest/assets/39443516/bfe38d05-3579-4213-a3b6-1643c306695d" alt="GasTest" height="320" width="320"/>
 </p>
